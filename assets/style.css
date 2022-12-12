@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%;
+}
+
+body {
+    width: 500px;
+    max-width: 80%;
+    background-color: rgb(224, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    display: relative;
+}
+
+.numberButtons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    width: 75%;
+    border-style: solid;  
+    border-radius: 0 0 0 5px; 
+    border-color: black; 
+    border-width: 2.5px;
+    background-color: rgb(143, 143, 108);
+    padding: 10px;
+}
+
+.SpecialCharacterButtons {
+    width: 25%;
+    border-style: solid;  
+    border-radius: 0 0 5px 0; 
+    border-color: black; 
+    border-width: 2.5px;
+    background-color: rgb(75, 72, 72);
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+.clearButton {
+    display: absolute;
+}
+
+.parentDiv {
+    display: inline;
+}
+
+.buttonForClearing {
+    border-radius: 5px;
+}
